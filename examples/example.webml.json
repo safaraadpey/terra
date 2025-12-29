@@ -1,0 +1,48 @@
+{
+  "source": {
+    "url": "https://example.com",
+    "retrieved_at": "2025-01-01T12:00:00Z",
+    "content_type": "html",
+    "retrieval_method": "rendered"
+  },
+  "content": "Example.com is a simple informational page used for illustrative purposes.",
+  "entities": [
+    {
+      "id": "e1",
+      "type": "organization",
+      "name": "Example Inc.",
+      "attributes": {
+        "website": "https://example.com"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "article",
+      "name": "Example Domain",
+      "attributes": {
+        "description": "Illustrative example domain"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from": "e2",
+      "to": "e1",
+      "type": "published_by"
+    }
+  ],
+  "actions": [
+    {
+      "id": "a1",
+      "type": "navigate",
+      "method": "GET",
+      "endpoint": "https://example.com",
+      "fields": []
+    }
+  ],
+  "metadata": {
+    "title": "Example Domain",
+    "language": "en",
+    "confidence": 0.95
+  }
+}
