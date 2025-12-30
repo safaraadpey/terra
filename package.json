@@ -1,0 +1,17 @@
+{
+  "name": "terra",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/cli/from-url.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.11.0"
+  }
+}
